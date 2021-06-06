@@ -35,10 +35,6 @@ span{
   justify-content: center;
   align-items: center;
 }
-.button-container, .button{
-  visibility: hidden;
-}
-@media(max-width:992px){
   .button-container{
     width:50%;
     margin:auto;
@@ -54,7 +50,6 @@ span{
 }
 #level-title{
   font-size:1.25rem;
-}
 }
 .btn {
   margin: 25px;
