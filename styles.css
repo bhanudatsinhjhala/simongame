@@ -5,7 +5,7 @@ body {
 
 #level-title {
   font-family: 'Press Start 2P', cursive;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   line-height: 1.5;
   margin:  5%;
   color: #FEF2BF;
@@ -35,7 +35,27 @@ span{
   justify-content: center;
   align-items: center;
 }
-
+.button-container, .button{
+  visibility: hidden;
+}
+@media(max-width:992px){
+  .button-container{
+    width:50%;
+    margin:auto;
+    visibility:visible;
+  }
+  .button{
+  background-color:#FEF2BF;
+  width:50px;
+  padding: 10px;
+  margin:auto;
+  cursor: pointer;
+  visibility:visible;
+}
+#level-title{
+  font-size:1.25rem;
+}
+}
 .btn {
   margin: 25px;
   display: inline-block;
